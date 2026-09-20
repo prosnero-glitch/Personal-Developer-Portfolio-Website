@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About · Emekpa Prosper</title>
+  <meta name="description" content="About Emekpa Prosper: frontend developer, skills, tools and experience.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23111111'/%3E%3Crect x='20' y='20' width='24' height='24' fill='%23ff4f00'/%3E%3C/svg%3E">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">Emekpa Prosper</a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul class="nav-list">
+          <li><a class="nav-link" href="index.html">Home</a></li>
+          <li><a class="nav-link" href="about.html" aria-current="page">About</a></li>
+          <li><a class="nav-link" href="projects.html">Projects</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="brown-bg">
+    <!-- ===== Page title ===== -->
+    <section class="container page-head">
+      <h1 class="display page-title">About</h1>
+    </section>
+
+    <!-- ===== Intro ===== -->
+    <section class="container about-grid">
+      <div>
+        <!-- Photo path must match the file name exactly (capitals + extension) -->
+        <div class="portrait">
+          <img src="Images/Headshot.jpeg" alt="Emekpa Prosper">
+        </div>
+        <p class="meta portrait-caption">Emekpa Prosper · Frontend Developer</p>
+      </div>
+      <div>
+        <p class="lead">
+          I’m Emekpa Prosper, a frontend developer. I build the part of a website people
+          actually see and use: layouts, navigation, forms, and everything that has to
+          work on a phone as well as it does on a laptop.
+        </p>
+        <p>
+          I started with one HTML page that looked terrible. I kept fixing it, and somewhere
+          along the way fixing things became the part I enjoy most. Since then I’ve moved from
+          following tutorials to building my own projects, from a recipe finder that uses a
+          public API to a typing test that keeps score as you type.
+        </p>
+        <p>
+          Right now I’m taking an advanced frontend course, going deeper into JavaScript,
+          responsive design and deployment. I’m looking for an internship or junior role where
+          I can learn from a team and ship real work. I’m also open to freelance projects.
+        </p>
+        <div class="actions">
+          <a class="btn-solid" href="contact.html">Get in touch →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section class="container section">
+      <div class="split">
+        <p class="label label-strong">Skills</p>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="skill-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript (ES6+)</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Layout &amp; styling</h3>
+            <ul class="skill-list">
+              <li>CSS Grid</li>
+              <li>Flexbox</li>
+              <li>Responsive design</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Tools</h3>
+            <ul class="skill-list">
+              <li>Git &amp; GitHub</li>
+              <li>VS Code</li>
+              <li>Chrome DevTools</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Timeline ===== -->
+    <section class="container section">
+      <div class="split">
+        <p class="label label-strong">Timeline</p>
+        <ol class="timeline">
+          <li>
+            <span class="meta">2026</span>
+            <div>
+              <h3>Wrote my first web page</h3>
+              <p>Learned the basics of HTML and CSS and published my first pages.</p>
+            </div>
+          </li>
+          <li>
+            <span class="meta">2026</span>
+            <div>
+              <h3>Started building real projects</h3>
+              <p>Moved from tutorials to my own apps using JavaScript, localStorage and public APIs.</p>
+            </div>
+          </li>
+          <li>
+            <span class="meta">2026</span>
+            <div>
+              <h3>Advanced frontend development</h3>
+              <p>Responsive design, JavaScript patterns, Git workflows and deploying to GitHub Pages.</p>
+            </div>
+          </li>
+          <li>
+            <span class="meta">Next</span>
+            <div>
+              <h3>Joining a team</h3>
+              <p>An internship or junior frontend role where I can keep learning and ship real work.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p class="footer-name">Emekpa Prosper</p>
+      <ul class="footer-links">
+        <li><a href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/your-username" target="_blank" rel="noopener">LinkedIn</a></li>
+        <li><a href="mailto:you@example.com">Email</a></li>
+      </ul>
+      <p class="meta">© <span data-year>2026</span> Emekpa Prosper. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
